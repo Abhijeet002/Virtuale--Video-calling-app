@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { toast, useToast } from "@/hooks/use-toast";
+import {  useToast } from "@/hooks/use-toast";
 import { useUser } from "@clerk/nextjs";
 import React from "react";
 import { useRouter } from "next/navigation";
